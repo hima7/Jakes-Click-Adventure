@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="Ground" x="637" y="679" name="inst_D2A9A2A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Feind1" x="720" y="555" name="inst_D6BF543A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Feind1" x="716" y="567" name="inst_D6BF543A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Shop_hintergrund_obj" x="11" y="60" name="inst_1655A048" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

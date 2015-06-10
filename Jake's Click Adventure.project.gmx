@@ -18,6 +18,7 @@
     <sprite>sprites\Boden_spr</sprite>
     <sprite>sprites\Shop_hintergrund_spr</sprite>
     <sprite>sprites\sprite11</sprite>
+    <sprite>sprites\sprite12</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Start_background</background>
