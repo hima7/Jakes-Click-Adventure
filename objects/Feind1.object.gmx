@@ -74,7 +74,7 @@ global.Coins = 0
           <argument>
             <kind>1</kind>
             <string>health -=25
-global.Coins +=0.1
+global.Coins +=5
 </string>
           </argument>
         </arguments>
