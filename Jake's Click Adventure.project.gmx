@@ -43,11 +43,13 @@
     <object>objects\BackToGame</object>
     <object>objects\Shop_hintergrund_obj</object>
     <object>objects\Held1</object>
+    <object>objects\Held1_2</object>
     <object>objects\Insel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>
     <room>rooms\L1</room>
+    <room>rooms\L2__VORLAGE_</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

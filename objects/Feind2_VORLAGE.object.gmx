@@ -83,7 +83,20 @@ if(global.DogTimer &lt;= 0){
             <string>if health &lt;=0
    room_goto_next()
    
-if (global.Dogs &gt;=1 &amp;&amp; global.DogTimer == 35) {
+if (global.Dogs =1 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+}
+
+if (global.Dogs =2 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+}
+if (global.Dogs =3 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+}
+if (global.Dogs =4 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+}
+if (global.Dogs =5 &amp;&amp; global.DogTimer == 35) {
        health -=0.09
 }
 </string>
