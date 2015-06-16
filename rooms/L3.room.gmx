@@ -55,8 +55,8 @@
     <instance objName="&lt;undefined&gt;" x="731" y="561" name="inst_002A2C52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Insel" x="651" y="494" name="inst_5F7563B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Held1_2" x="22" y="55" name="inst_4C10731E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Feind2_VORLAGE" x="733" y="575" name="inst_7F64FCE1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="BUY_Held1" x="148" y="124" name="inst_6BB50534" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Feind3" x="732" y="568" name="inst_4D650D13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

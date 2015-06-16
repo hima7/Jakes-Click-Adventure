@@ -89,14 +89,75 @@ if (global.Dogs =1 &amp;&amp; global.DogTimer == 35) {
 
 if (global.Dogs =2 &amp;&amp; global.DogTimer == 35) {
        health -=0.09
+       health -=0.09
 }
 if (global.Dogs =3 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
        health -=0.09
 }
 if (global.Dogs =4 &amp;&amp; global.DogTimer == 35) {
        health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
 }
 if (global.Dogs =5 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
+if (global.Dogs =6 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
+
+if (global.Dogs =7 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
+if (global.Dogs =8 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
+if (global.Dogs =9 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
+if (global.Dogs =10 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
        health -=0.09
 }
 </string>

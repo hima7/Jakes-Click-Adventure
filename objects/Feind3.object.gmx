@@ -26,6 +26,38 @@
           <argument>
             <kind>1</kind>
             <string>health = 100
+alarm [0] = 1
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>alarm[0] = 1
+
+global.DogTimer -= 1
+
+if(global.DogTimer &lt;= 0){
+     global.DogTimer = 35
+}
 </string>
           </argument>
         </arguments>
@@ -50,6 +82,84 @@
             <kind>1</kind>
             <string>if health &lt;=0
    room_goto_next()
+   
+if (global.Dogs =1 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+}
+
+if (global.Dogs =2 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+}
+if (global.Dogs =3 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
+if (global.Dogs =4 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
+if (global.Dogs =5 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
+if (global.Dogs =6 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
+
+if (global.Dogs =7 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
+if (global.Dogs =8 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
+if (global.Dogs =9 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
+if (global.Dogs =10 &amp;&amp; global.DogTimer == 35) {
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+       health -=0.09
+}
 </string>
           </argument>
         </arguments>
@@ -73,7 +183,8 @@
           <argument>
             <kind>1</kind>
             <string>health -=10
-global.Coins +=0.2
+global.Coins +=8
+
 </string>
           </argument>
         </arguments>
@@ -136,9 +247,7 @@ global.Coins +=0.2
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_color(c_white)
-draw_set_font(Arial_Black)
-draw_text(view_xview+700,view_yview+10,"Coins: "+string(global.Coins))
+            <string>draw_self()
 </string>
           </argument>
         </arguments>
@@ -159,7 +268,13 @@ draw_text(view_xview+700,view_yview+10,"Coins: "+string(global.Coins))
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_self()
+            <string>draw_set_color(c_white)
+draw_set_font(Arial_Black)
+draw_text(view_xview+700,view_yview+10,"Coins: "+string(global.Coins))
+
+draw_set_color(c_white)
+draw_set_font(Arial_Black)
+draw_text(view_xview+10,view_yview+80,"Dogs: "+string(global.Dogs))
 </string>
           </argument>
         </arguments>

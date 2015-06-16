@@ -21,6 +21,10 @@
     <sprite>sprites\sprite12</sprite>
     <sprite>sprites\sprite13</sprite>
     <sprite>sprites\sprite14</sprite>
+    <sprite>sprites\sprite15</sprite>
+    <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\sprite18</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Start_background</background>
@@ -35,7 +39,9 @@
     <object>objects\Play</object>
     <object>objects\Ground</object>
     <object>objects\Feind1</object>
-    <object>objects\Feind2</object>
+    <object>objects\Feind2_VORLAGE</object>
+    <object>objects\Feind3</object>
+    <object>objects\Feind4</object>
     <object>objects\Shop</object>
     <object>objects\Eins</object>
     <object>objects\Zwei</object>
@@ -45,6 +51,7 @@
     <object>objects\Held1</object>
     <object>objects\Held1_2</object>
     <object>objects\Insel</object>
+    <object>objects\BUY_Held1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\Start</room>
