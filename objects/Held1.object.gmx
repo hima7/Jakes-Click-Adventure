@@ -31,7 +31,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="6" enumb="0">
+    <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -48,13 +48,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.Coins &gt;=4
+            <string>if global.Coins &gt;=4.9
 {
    global.Dogs +=1
    global.Coins -=5
-}
+   }
 else
 show_question("You don't have enough Coins!");
+
 </string>
           </argument>
         </arguments>
